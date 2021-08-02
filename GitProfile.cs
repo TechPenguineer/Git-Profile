@@ -13,6 +13,7 @@ namespace gitprofile
         {
             string res = API.Api.GetApiData("TechPenguineer");
             Console.WriteLine(res);
+            Console.ReadLine();
         }
     }
 }
